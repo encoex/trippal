@@ -1,0 +1,27 @@
+﻿<vm:PhotosViewModel Title="My Photo Collection"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:vm="clr-namespace:PhotoDisplayApp.ViewModels">
+    
+    <vm:PhotosViewModel.Collection>
+        <vm:PhotoCollection Title="A good Day">
+            <vm:PhotoCollection.photo>
+                <vm:Photo Owner="Alice" SourceUrl="http://www.itusozluk.com/image/nils-ve-ucan-kaz_33735.jpg"/>
+                <vm:Photo Owner="Kat" SourceUrl="http://static1.wikia.nocookie.net/__cb20131111220942/harrypotter/images/5/53/Harry_potter.jpg"/>
+                <vm:Photo Owner="Jake" SourceUrl="http://www.itusozluk.com/image/nils-ve-ucan-kaz_33735.jpg"/>
+                <vm:Photo Owner="Kat" SourceUrl="http://www.itusozluk.com/image/nils-ve-ucan-kaz_33735.jpg"/>
+                <vm:Photo Owner="Alice" SourceUrl="http://www.itusozluk.com/image/nils-ve-ucan-kaz_33735.jpg"/>
+            </vm:PhotoCollection.photo>
+        </vm:PhotoCollection>
+    </vm:PhotosViewModel.Collection>
+
+    <vm:PhotosViewModel.Checkins>
+        <vm:PhotoCollection Title="Checkins">
+            <vm:PhotoCollection.photo>
+                <vm:Photo Owner="Alice" SourceUrl="http://www.itusozluk.com/image/nils-ve-ucan-kaz_33735.jpg"/>
+                <vm:Photo Owner="Kat" SourceUrl="http://static1.wikia.nocookie.net/__cb20131111220942/harrypotter/images/5/53/Harry_potter.jpg"/>
+            </vm:PhotoCollection.photo>
+        </vm:PhotoCollection>
+    </vm:PhotosViewModel.Checkins>
+
+</vm:PhotosViewModel>
