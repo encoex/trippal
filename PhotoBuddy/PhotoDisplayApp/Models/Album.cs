@@ -10,9 +10,11 @@ namespace PhotoDisplayApp.ViewModels
     {
         IEnumerable<Photo> photos;
         public int AlbumId { get; set; }
-        public string AlbumName { get; set; }        
+        public string AlbumName { get; set; }
+        public bool IsPrivate { get; set; }
         public void GetPhotosAsync() { }
         public void AddPhotoAsync() { }
         public void DeletePhotoAsync() { }
+        
     }
 }
